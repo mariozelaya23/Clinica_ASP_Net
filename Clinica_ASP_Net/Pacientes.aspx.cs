@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 
 namespace Clinica_ASP_Net
 {
@@ -13,5 +15,7 @@ namespace Clinica_ASP_Net
         {
 
         }
+
+        SqlConnection con = new SqlConnection();
     }
 }
